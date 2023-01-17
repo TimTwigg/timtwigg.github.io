@@ -1,1 +1,4 @@
 Add icon to navbar on small screen
+
+Useful Sites:
+https://fontawesome.com/icons
