@@ -1,5 +1,3 @@
---Readme document for *author*--
-
 A reminder on academic integrity, as described in the syllabus.
 
 In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
@@ -35,11 +33,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 3. How long, in hours, did it take you to complete this assignment?
 
-
+1
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
