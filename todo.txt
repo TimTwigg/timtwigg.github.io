@@ -2,3 +2,5 @@ Add icon to navbar on small screen
 
 Useful Sites:
 https://fontawesome.com/icons
+
+http://validator.w3.org/check?uri=referer
