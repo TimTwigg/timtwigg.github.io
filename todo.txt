@@ -1,6 +1,17 @@
-Add icon to navbar on small screen
+redo slideshow for screen size changes
+
+Make slideshow automatic (can it be auto and have the buttons/dots?)
+Adapt for semantic tags
+Redesign nav bar, maybe as a pinned header/banner?
+alt texts for images. decorative images have empty alt attributes
+rewrite project texts to be more succinct.
+change to very succinct design for small screens
+Test on small screen.
 
 Useful Sites:
 https://fontawesome.com/icons
+
+Validation:
+AChecker and WAVE checkers over-report problems so think critically.
 
 http://validator.w3.org/check?uri=referer
