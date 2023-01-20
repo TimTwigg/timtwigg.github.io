@@ -35,12 +35,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1/17: 4
 1/18 3
-1/19 1.5
+1/19 4.5
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+https://stackoverflow.com/questions/26694385/fade-in-on-scroll-down-fade-out-on-scroll-up-based-on-element-position-in-win
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
