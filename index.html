@@ -126,15 +126,15 @@ EMAIL: ttwigg@uci.edu
         <br/>
 
         <h2 id = "contact_form">Contact Me</h2>
-        <form action = "https://formspree.io/fingolfin128@gmail.com" method = "post" enctype = "text/plain">
+        <form action = "https://formspree.io/f/xjvdkdpl" method = "post" enctype = "text/plain">
             <label for = "name">Name</label>
-            <input type = "text" id = "name" name = "_name" placeholder = "Your name...">
+            <input type = "text" id = "name" name = "name" placeholder = "Your name..." required>
             <label for = "email">Reply to</label>
-            <input type = "text" id = "email" name = "_replyto" placeholder = "Your email address...">
+            <input type = "text" id = "email" name = "_replyto" placeholder = "Your email address..." required>
             <label for = "subject">Subject</label>
-            <input type = "text" id = "subject" name = "_subject" placeholder = "What are you contacting me about?">
+            <input type = "text" id = "subject" name = "_subject" placeholder = "What are you contacting me about?" required>
             <label for = "contact_content">Content</label>
-            <textarea id = "contact_content" name = "content" placeholder = "Details here..."></textarea>
+            <textarea id = "contact_content" name = "message" placeholder = "Details here..." required></textarea>
             <input type = "submit" value = "Submit">
         </form>
 
