@@ -11,9 +11,9 @@ EMAIL: ttwigg@uci.edu
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
     <meta name = "author" content = "Timothy Twigg">
     <meta name = "description" content = "Home Page">
-    <link type = "text/css" rel = "stylesheet" href = "styles.css">
-    <script type = "text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script type = "text/javascript" src = "script.js"></script>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src = "script.js"></script>
     <script src="https://use.fontawesome.com/ff30197ced.js"></script>
     <title>Home</title>
 </head>
@@ -34,7 +34,7 @@ EMAIL: ttwigg@uci.edu
         <header>
             <div class = "column left">
                 <span id = "hi">Hi<span class = "blue">.</span></span>
-                <br/>
+                <br>
                 <p>
                     I'm Tim Twigg. I'm a computer science major at UCI, graduating in December 2023. I have experience in Python, C, C++, and SQL, as
                     well as build tools such as cmake.
@@ -56,7 +56,7 @@ EMAIL: ttwigg@uci.edu
                 Here are some of the projects I've worked on for course projects and personal challenges.
             </p>
 
-            <br/>
+            <br>
 
             <h2 class = "fade">
                 <span class = "fa-stack"><i class = "fa fa-square-o fa-stack-2x"></i><i class = "fa fa-terminal fa-stack-1x"></i></span>
@@ -69,14 +69,14 @@ EMAIL: ttwigg@uci.edu
                     in my course projects. The first iteration was mostly built in Python at the end of my freshman year, but the following year
                     I decided to rebuild it as a learning exercise in C++ programming paradigms. I decided against using an engine for this project
                     as I wanted my focus to be on designing and developing in C++, rather than on the game itself. The project also gave me experience
-                    with cmake. Pictured is the game in play, though only a few of the available commands are demonstrated here.<br/>
+                    with cmake. Pictured is the game in play, though only a few of the available commands are demonstrated here.<br>
                     Although still in development, the game's basics are playable, and developed modularly to allow easy porting to different operating
-                    systems or a web-based version. <br/>
+                    systems or a web-based version. <br>
                 </span>
                 <span class = "small_screen_text">
                     My second iteration of a text-based command-line sandbox adventure game. I am building it in C++ as an exercise in designing and
                     developing in the language. Although still in development, the game's basics are playable, and developed modularly to allow easy
-                    porting to different operating systems or a web-based version. <br/>
+                    porting to different operating systems or a web-based version. <br>
                 </span>
                 Github Repo: 
                 <a href = "https://github.com/TimTwigg/Adventure-2" target = "_blank" title = "Github Link">
@@ -84,8 +84,8 @@ EMAIL: ttwigg@uci.edu
                 </a>
             </p>
 
-            <br/>
-            <br/>
+            <br>
+            <br>
 
             <h2 class = "fade">
                 <span class = "fa-stack"><i class = "fa fa-square-o fa-stack-2x"></i><i class = "fa fa-terminal fa-stack-1x"></i></span>
@@ -98,7 +98,7 @@ EMAIL: ttwigg@uci.edu
                     and sighted communities through play. The game incorporates tactile interaction with Minecraft through computer vision and a 3D
                     printed physical game board. Custom games set within Minecraft support collaborative and competitive play designed to leverage
                     the abilities of each player. Pictured is the team developing our tactile interface which uses computer vision to link a simple
-                    3D-printed grid with Minecraft. <br/>
+                    3D-printed grid with Minecraft. <br>
                     My contribution to this project involved helping to develope the core concepts, designing and building the minigames, and developing
                     the app.
                 </span>
@@ -108,14 +108,14 @@ EMAIL: ttwigg@uci.edu
                     and run custom games set within Minecraft to support collaborative play. My contribution to this project involved helping to developed
                     the core concepts, designing and building the minigames, and developing the app.
                 </span>
-                <br/> Github Repo: 
+                <br> Github Repo: 
                 <a href = "https://github.com/TimTwigg/Research" target = "_blank" title = "Github Link">
                     <span class = "fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span>
                 </a>
             </p>
 
-            <br/>
-            <br/>
+            <br>
+            <br>
 
             <h2 class = "fade">
                 <span class = "fa-stack"><i class = "fa fa-square-o fa-stack-2x"></i><i class = "fa fa-terminal fa-stack-1x"></i></span>
@@ -124,7 +124,7 @@ EMAIL: ttwigg@uci.edu
             <img src = "minesweeper.JPG" alt = "Minesweeper game" class = "fade">
             <p class = "fade">
                 I have worked on a number of other small projects in Python, such as the first iteration of the Adventure game, an automatic sudoku
-                solver, and a Minesweeper game. <br/>
+                solver, and a Minesweeper game. <br>
                 Github Repo for Minesweeper:
                 <a href = "https://github.com/TimTwigg/Minesweeper" target = "_blank" title = "Github Link">
                     <span class = "fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span>
@@ -132,8 +132,8 @@ EMAIL: ttwigg@uci.edu
             </p>
         </section>
 
-        <br/>
-        <br/>
+        <br>
+        <br>
 
         <h1 id = "contact_form" class = "fade">
             Contact Me
@@ -142,17 +142,17 @@ EMAIL: ttwigg@uci.edu
         <form action = "https://formspree.io/f/xjvdkdpl" method = "post" class = "fade">
             <label>
                 Name
-                <input type = "text" name = "name" id = "form_name" placeholder = "Your name..." required/>
+                <input type = "text" name = "name" id = "form_name" placeholder = "Your name..." required>
             </label>
 
             <label>
                 Reply to
-                <input type = "text" name = "email" id = "formEmail" placeholder = "What email address can I contact you at?" required/>
+                <input type = "text" name = "email" id = "formEmail" placeholder = "What email address can I contact you at?" required>
             </label>
 
             <label>
                 Subject
-                <input type = "text" name = "subject" id = "formSubject" placeholder = "What are you contacting me about?" required/>
+                <input type = "text" name = "subject" id = "formSubject" placeholder = "What are you contacting me about?" required>
             </label>
 
             <label>
@@ -160,7 +160,7 @@ EMAIL: ttwigg@uci.edu
                 <textarea name = "message" id = "formContent" placeholder = "Details here..." required></textarea>
             </label>
 
-            <input type = "submit" value = "Submit"/>
+            <input type = "submit" value = "Submit">
         </form>
 
     </div>
