@@ -1,12 +1,3 @@
-make image move up/in on page load, same with header text
-rewrite project texts to be more succinct.
-change to very succinct design for small screens
-Test on small screen.
-make nav bar stick and change active as you scroll down
-
-Useful Sites:
-https://fontawesome.com/v4/icons/
-
 Validation:
 AChecker and WAVE checkers over-report problems so think critically.
 

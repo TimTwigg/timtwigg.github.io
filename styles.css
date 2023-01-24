@@ -20,8 +20,7 @@ body {
 
 .main {
     width: 85%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 10px auto 0 auto;
     background-color: #222222;
     border-radius: 20px;
     padding: 20px 20px 20px 20px;
@@ -37,6 +36,13 @@ hr {
 /* Base */
 h1 {
     font-size: 36px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0862c2;
+    width: fit-content;
+}
+
+.fa-plus {
+    color: #0862c2;
 }
 
 h2 {
