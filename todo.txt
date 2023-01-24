@@ -1,4 +1,0 @@
-Validation:
-AChecker and WAVE checkers over-report problems so think critically.
-
-http://validator.w3.org/check?uri=referer

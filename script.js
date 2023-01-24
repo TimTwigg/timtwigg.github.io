@@ -43,13 +43,13 @@ $(window).on("load",function() {
             var objectMid = $(this).offset().top + ($(this).outerHeight() / 2);
         
             /* Fade in the element */
-            if ((objectMid < windowBottom) || (objectBottom < windowBottom)) { //object comes into view (scrolling down)
+            if ((objectMid < windowBottom) || (objectBottom < windowBottom)) { // object comes into view (scrolling down)
                 if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
-            } else { //object goes out of view (scrolling up)
+            } else { // object goes out of view (scrolling up)
                 if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
             }
         });
-    }).scroll(); //invoke scroll-handler on page-load
+    }).scroll();
 });
 
 

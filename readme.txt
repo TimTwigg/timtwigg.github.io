@@ -8,28 +8,35 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/15
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+15/15
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
-
+Images (no alt texts since they are purely decorational images)
+Headings and Paragrpah texts
+Semantic HTML tags such as header, nav, footer
+Custom icons from FontAwesome
 
 (b) CSS features
 
-
+Padding and Margin management to organize content
+Color styling
+Media requests to manage responsiveness and elements which are only visible on small screens or when scrolled down from the top of the page
 
 (c) Advanced features
 
-
+Complex layout with navigation bar, center-content space, and side-by-side elements
+Leveraging nested selectors to specify format
+HTML form linked to formspree to send me an email
 
 3. How long, in hours, did it take you to complete this assignment?
 
@@ -37,6 +44,7 @@ This assignment took me 19 hours in total.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
+I consulted the following sources:
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 https://stackoverflow.com/questions/26694385/fade-in-on-scroll-down-fade-out-on-scroll-up-based-on-element-position-in-win
@@ -45,7 +53,8 @@ https://discourse.webflow.com/t/removing-anchor-links-from-changing-browser-url-
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+I consulted family members on design choices such as color palettes and layout design.
 
 6. Is there anything special we need to know in order to run your code?
 
+Also live at https://timtwigg.github.io/
