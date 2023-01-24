@@ -34,7 +34,7 @@ hr {
 }
 
 /* Base */
-h1 {
+h2 {
     font-size: 36px;
     padding-bottom: 5px;
     border-bottom: 1px solid #0862c2;
@@ -45,7 +45,7 @@ h1 {
     color: #0862c2;
 }
 
-h2 {
+h3 {
     font-size: 24px;
 }
 
@@ -126,7 +126,7 @@ header p {
 
 footer {
     text-align: right;
-    color: grey;
+    color: rgb(77, 77, 77);
     margin-top: auto;
     font-size: 24px;
 }
