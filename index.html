@@ -8,7 +8,6 @@ EMAIL: ttwigg@uci.edu
 
 <head>
     <meta charset = "utf-8">
-    <meta name = "Content-Type" content = "text/html">
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
     <meta name = "author" content = "Timothy Twigg">
     <meta name = "description" content = "Home Page">
@@ -20,8 +19,8 @@ EMAIL: ttwigg@uci.edu
 </head>
 
 <body>
-    <nav class = "topnav" id = "home">
-        <a class = "navActive" href = "#home">Home</a>
+    <nav class = "topnav" id = "navbar">
+        <a href = "javascript:void(0)" class = "navActive" onclick = "toTop()">Home</a>
         <a href = "#my_projects" onclick = "hideResponsiveNavBar()">My Projects</a>
         <a href = "#contact_form" onclick = "hideResponsiveNavBar()">Contact Me</a>
         <a href = "javascript:void(0)" class = "icon" onclick = "changeNavBar()" title = "icon"><i class = "fa fa-bars" aria-hidden="true"></i></a>
@@ -30,12 +29,19 @@ EMAIL: ttwigg@uci.edu
     <div class = "main">
         <button onclick="toTop()" id = "toTopButton" title = "Gotop" type = "button">Back to top</button>
 
+        <hr>
+
         <header>
-            <p id = "hi">Hi.</p>
-            <p>
+            <div class = "column left">
+                <span id = "hi">Hi<span class = "blue">.</span></span>
+                <br/>
+                <p>
+                    I'm Tim Twigg. I'm a computer science major at UCI, and expect to graduate in December 2023.
+                </p>
+            </div>
+            <div class = "column right">
                 <img id = "profile_picture" src = "profile.jpg" alt = "Personal Profile Picture">
-                I'm Tim Twigg. I'm a computer science major at UCI, and expect to graduate in December 2023.
-            </p>
+            </div>
         </header>
 
         <hr>
@@ -52,7 +58,7 @@ EMAIL: ttwigg@uci.edu
                 <span class = "fa-stack"><i class = "fa fa-square-o fa-stack-2x"></i><i class = "fa fa-terminal fa-stack-1x"></i></span>
                 Adventure-2
             </h2>
-            <img src = "adventurePlay.JPG" alt = "Game demonstration" class = "fade">
+            <img src = "adventurePlay.JPG" alt = "Game demonstration" class = "fade img_border">
             <p class = "fade">
                 <span class = "large_screen_text">
                     I built my text-based command-line sandbox adventure game as an exercise in developing a more complex system than I was doing
@@ -125,17 +131,31 @@ EMAIL: ttwigg@uci.edu
         <br/>
         <br/>
 
-        <h2 id = "contact_form">Contact Me</h2>
-        <form action = "https://formspree.io/f/xjvdkdpl" method = "post" enctype = "text/plain">
-            <label for = "name">Name</label>
-            <input type = "text" id = "name" name = "name" placeholder = "Your name..." required>
-            <label for = "email">Reply to</label>
-            <input type = "text" id = "email" name = "_replyto" placeholder = "Your email address..." required>
-            <label for = "subject">Subject</label>
-            <input type = "text" id = "subject" name = "_subject" placeholder = "What are you contacting me about?" required>
-            <label for = "contact_content">Content</label>
-            <textarea id = "contact_content" name = "message" placeholder = "Details here..." required></textarea>
-            <input type = "submit" value = "Submit">
+        <h2 id = "contact_form" class = "fade">
+            Contact Me
+        </h2>
+        <form action = "https://formspree.io/f/xjvdkdpl" method = "post" class = "fade">
+            <label>
+                Name
+                <input type = "text" name = "name" id = "form_name" placeholder = "Your name..." required/>
+            </label>
+
+            <label>
+                Reply to
+                <input type = "text" name = "email" id = "formEmail" placeholder = "What email address can I contact you at?" required/>
+            </label>
+
+            <label>
+                Subject
+                <input type = "text" name = "subject" id = "formSubject" placeholder = "What are you contacting me about?" required/>
+            </label>
+
+            <label>
+                Content
+                <textarea name = "message" id = "formContent" placeholder = "Details here..." required></textarea>
+            </label>
+
+            <input type = "submit" value = "Submit"/>
         </form>
 
     </div>

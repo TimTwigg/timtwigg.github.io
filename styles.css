@@ -12,16 +12,19 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #757575;
     color: white;
     padding: 0;
     min-height: 100vh;
 }
 
 .main {
-    width: 90%;
+    width: 85%;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 hr {
@@ -45,9 +48,9 @@ p {
 }
 
 /* Medium screens */
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
     hr {
-        margin-bottom: 5vw;
+        margin-bottom: 2vw;
     }
 
     .main {
@@ -57,7 +60,7 @@ p {
 }
 
 /* Bigger screens */
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1001px) {
     hr {
         margin-bottom: 50px;
     }
@@ -65,6 +68,7 @@ p {
     .main {
         width: 60%;
         margin: auto;
+        padding: 0 30px 20px 30px;
     }
 }
 
@@ -81,23 +85,37 @@ p {
 header {
     text-align: center;
     position: relative;
+    box-sizing: border-box;
+    display: contents;
 }
 
 #hi {
-    padding-right: 20%;
-    font-size: 36px;
+    padding: 2vw 20% 0 0;
+    font-size: 48px;
     font-weight: bold;
-}
-
-header img {
     display: block;
 }
 
+.blue {
+    color: #0862c2;
+}
+
+header p {
+    padding: 0 30px;
+    margin: none;
+}
+
+.column {
+    float: left;
+    padding: 10px 0;
+}
+
 #profile_picture {
+    min-width: 250px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    border-radius: 10%;
 }
 
 footer {
@@ -110,20 +128,39 @@ footer {
 /* Medium screens */
 @media screen and (min-width: 600px) {
     #profile_picture {
-        float: right;
-        width: 40%;
-        margin-left: 10px;
-        margin-right: 10px;
+        float: none;
+        width: 60%;
+        padding: 0;
     }
 
     #hi {
+        padding: 2vw 20% 0 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #hi {
         font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .left {
+        width: 55%;
+    }
+    
+    .right {
+        width: 40%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #hi {
         font-size: 72px;
+    }
+
+    #profile_picture {
+        min-width: 20vw;
     }
 }
 
@@ -173,7 +210,9 @@ footer {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #434242;
+    width: 100%;
+    padding: 0;
 }
 
 .topnav a {
@@ -186,14 +225,14 @@ footer {
     font-size: 17px;
 }
 
+.topnav a.navActive {
+    background-color: #0862c2;
+
+}
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-.topnav a.navActive {
-    background-color: #0862c2;
-    color: white;
 }
 
 .topnav .icon {
@@ -240,6 +279,8 @@ the first one. Show the link that shows/hides the nav bar */
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    border: 3px solid #757575;
+    border-radius: 8% 1% 8% 1%;
 }
 
 .small_screen_text {
@@ -290,4 +331,9 @@ form {
     background-color: #f2f2f2;
     padding: 20px;
     color: black;
+    font-family: inherit;
+}
+
+form textarea {
+    font-family: inherit;
 }

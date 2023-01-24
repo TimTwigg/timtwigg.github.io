@@ -1,7 +1,7 @@
 /* Toggle between adding and removing the "responsive" class
 to topnav when the user clicks on the icon */
 function changeNavBar() {
-    var x = document.getElementById("home");
+    var x = document.getElementById("navbar");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
@@ -10,7 +10,7 @@ function changeNavBar() {
 }
 
 function hideResponsiveNavBar() {
-    var x = document.getElementById("home");
+    var x = document.getElementById("navbar");
     x.className = "topnav";
 }
 
@@ -29,8 +29,7 @@ function scrollFunction() {
 }
 
 function toTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo(0, 0);
 }
 
 
@@ -52,3 +51,20 @@ $(window).on("load",function() {
         });
     }).scroll(); //invoke scroll-handler on page-load
 });
+
+
+/* clear form */
+window.onbeforeunload = function() {
+    for(const form of document.getElementsByTagName("form")) {
+        form.reset();
+    }
+    window.scrollTo(0, 0);
+}
+
+
+/* Prevent anchor links from changing the url */
+$(document).on("click", "a", evt => !(
+    evt.target.hash !== "" && $("html, body").animate({
+        scrollTop: $(evt.target.hash).offset().top-$("a").outerHeight()
+    }, 800)
+));
