@@ -33,10 +33,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 3. How long, in hours, did it take you to complete this assignment?
 
-1/17: 4
-1/18 3
-1/19 4.5
-1/23 5.5
+This assignment took me 19 hours in total.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
