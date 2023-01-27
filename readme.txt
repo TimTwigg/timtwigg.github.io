@@ -58,3 +58,4 @@ I consulted family members on design choices such as color palettes and layout d
 6. Is there anything special we need to know in order to run your code?
 
 Also live at https://timtwigg.github.io/
+The AChecker and Wave validation brought many "possible errors" which when reviewed are not actually problems.
